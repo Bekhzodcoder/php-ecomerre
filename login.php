@@ -24,18 +24,10 @@
             } ?>
             <div class="card">
                 <div class="card-header">
-                    <h4>Register Form</h4>
+                    <h4>Login Form</h4>
                 </div>
                 <div class="card-body">
                     <form action="functions/authcode.php" method="POST">
-                        <div class="mb-3">
-                            <label class="form-label">Name</label>
-                            <input type="text" name="name" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Phone</label>
-                            <input type="number" name="phone" class="form-control">
-                        </div>
                         <div class="mb-3">
                             <label class="form-label">Email address</label>
                             <input type="email" name="email" class="form-control">
@@ -44,11 +36,8 @@
                             <label class="form-label">Password</label>
                             <input type="password" name="password" class="form-control">
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label">confirm Password</label>
-                            <input type="password" name="cpassword" class="form-control">
-                        </div>
-                        <button type="submit" name="register_btn" class="btn btn-primary">Submit</button>
+                       
+                        <button type="submit" name="login_btn" class="btn btn-primary">login</button>
                     </form>
                 </div>
             </div>
