@@ -1,4 +1,8 @@
-<?php include('includes/header.php'); ?>
+<?php 
+
+    include('includes/header.php'); 
+    include('../middleware/adminMiddleware.php'); 
+?>
 
 <div class="container-fluid">
     <div class="row">
